@@ -1,0 +1,3 @@
+[submodule "front-rkl"]
+	path = front-rkl
+	url = https://github.com/henrique-hub-byte/rosekukla_life.git
