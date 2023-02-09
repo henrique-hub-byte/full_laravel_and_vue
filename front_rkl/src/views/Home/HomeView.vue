@@ -1,9 +1,17 @@
-<script setup>
+<template>
+  
+    <DashboardView/>
+    
+</template>
 
+<script>
+import DashboardView from '../Dashboard/DashboardView.vue'; 
+export default {
+  components: {
+    DashboardView,
+  } 
+}
 </script>
 
-<template>
-  <main>
-    <h1>home</h1>
-  </main>
-</template>
+<style>
+</style>
