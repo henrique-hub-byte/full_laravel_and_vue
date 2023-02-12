@@ -21,11 +21,13 @@ export default {
     
     .logo { 
         color: #fff;
+        margin-left: 25px;
     }
 
     .logout {
         color: #fff;
         float: right;
+        margin-right: 25px;
         text-decoration: none;
     }
 
