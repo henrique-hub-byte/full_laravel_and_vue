@@ -12,12 +12,23 @@
         </div>
 
         <div class="menu">
+            <ul>
+                <li> <router-link :to="{ path: '/home' }"><i class="fa fa-home icon"> home</i></router-link> </li>
+                <li> <router-link :to="{ path: '/about' }"><i class="fa fa-box icon"> Sobre</i></router-link> </li>
+                <li> <router-link :to="{ path: '/products' }"> <i class="fa fa-store icon"> Produtos</i></router-link>
+                </li>
+                <li> <router-link :to="{ path: '/login' }"> <i class="fa fa-store icon"> Lojas</i> </router-link></li>
+                <li> <router-link :to="{ path: '/about' }"> <i class="fa fa-chart-bar icon"> Relatorio</i>
+                    </router-link>
+                </li>
+            </ul>
 
         </div>
     </div>
 </template>
 
 <script>
+
 export default {
     name: 'SideBarView',
 }
@@ -64,6 +75,26 @@ export default {
             .status {
                 font-size: 10px;
                 color: #fff;
+            }
+        }
+    }
+
+    .menu {
+        padding: 20px;
+
+        ul li {
+            margin: 15px 0;
+            font-size: 16px;
+            font-weight: 200;
+            list-style: none;
+
+            a {
+                color: #fff;
+
+                .icon::before {
+                    margin-right: 5px;
+                    content: "\f015";
+                }
             }
         }
     }

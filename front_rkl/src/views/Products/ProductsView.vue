@@ -2,7 +2,7 @@
   <main>
     <DashboardView>
       <div slot="slot-pages" class="content-pages">
-        <p>Home</p>
+        <p>Produtos</p>
       </div>
 
     </DashboardView>

@@ -11,9 +11,12 @@
             </div>
 
             <div class="pages">
+                <slot name="slot-pages"></slot>
 
+                <slot></slot>
             </div>
 
+            
         </div>
     </div>
 </template>
